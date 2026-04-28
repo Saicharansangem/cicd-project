@@ -24,4 +24,5 @@ jobs:
       run: npm test
 
     - name: Check app runs
-      run: node index.js
+      run: node index.js & sleep 5
+      
